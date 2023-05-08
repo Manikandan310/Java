@@ -1,19 +1,21 @@
-package week1.day1;
+package week2.day1;
 
 public class Mobile {
-	public void sendMessage() {
-		System.out.println("send the Message to anyone");
-	}
-	public void shareDocument() {
-		System.out.println("share the Document");
-	}
-	public void Call() {
-		System.out.println("make a Call");
-	}
+	String mobileBrandName="Samsung Galaxy A31";
+	char mobileLogo='S';
+	short noOfMobilePiece=15;
+	int modelNumber=31;
+	long mobilemeiNumber=564897512300369487L;
+	float mobilePrice=25000.00F;
+	boolean isDamaged=false;
 	public static void main(String[] args) {
-		Mobile Oppo=new Mobile();
-		Oppo.sendMessage();
-		Oppo.shareDocument();
-		Oppo.Call();
+		Mobile Samsung=new Mobile();
+		System.out.println(Samsung.mobileBrandName);
+		System.out.println(Samsung.mobileLogo);
+		System.out.println(Samsung.noOfMobilePiece);
+		System.out.println(Samsung.mobilemeiNumber);
+		System.out.println(Samsung.mobilePrice);
+		System.out.println(Samsung.isDamaged);		
 	}
 }
+
